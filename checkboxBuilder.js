@@ -1,3 +1,13 @@
+/*
+    uses bootstrap 5
+    
+    for a json array of objects with 2 attributes i.e. (id and name) create checkboxes
+    
+    container == main container that will include the checkboxes
+    checkBox == determines the id,name of the checkbox 
+    data = json data
+
+*/
 function appendCheckbox(container, checkBox, data) {
     let mainContainer = document.getElementById(container);
 
